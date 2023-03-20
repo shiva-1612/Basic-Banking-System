@@ -1,0 +1,43 @@
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:nth-child(even) {background-color: pink;}
+  body{
+    background-color:white;
+    
+  }
+  
+ h1{
+  color: blue;
+ }
+
+ input[type=submit]
+  {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  position: relative;
+  left: 45%;
+ }
+ tr:hover{
+  transition: 0.5s;
+  background-color: cyan;
+ }
+ th, td {
+  border-bottom: 1px solid #ddd;
+}
